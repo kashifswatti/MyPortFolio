@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>PortFolio | home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .mydiv
+      {
+        background-image: url('img/forest.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    </style>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+          height="15"
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+      <!-- Notifications -->
+      <!--  -->
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+<div class="mydiv">
+<center><p style="padding-top: 200px; font-size: x-large; color:beige">I have a certified <br><span class="autotype"></span></p></center>
+</div>
+<center><h2>Owl Carousal</h2></center>
+<center><p>Touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider.</p></center>
+
+<div class="owl-carousel owl-theme">
+  <div><img src="img/images3.jpg" alt=""></div>
+  <div><img src="img/images3.jpg" alt=""></div>
+  <div><img src="img/images3.jpg" alt=""></div>
+  <div><img src="img/images3.jpg" alt=""></div>
+  <div><img src="img/images3.jpg" alt=""></div>
+  <div><img src="img/images3.jpg" alt=""></div>
+  <div><img src="img/images3.jpg" alt=""></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('.autotype',{
+        strings:['Actor','Writer','Director'],
+        typeSpeed:200,
+        loop:true
+      })
+    </script>
+<script>    
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      responsive : {
+        // breakpoint from 0 up
+        414 : {
+           items: 1
+        },
+        // breakpoint from 480 up
+        786 : {
+           items: 2
+        },
+        // breakpoint from 768 up
+        900 : {
+          items: 5 
+        }
+    }
+
+    });
+  });
+    </script>
+
+
+
+<center> 
+  <h2 id="days" style="background-color: cover ">08</h2>
+  <p>Days</p>
+
+  <h2 id="hours">08</h2>
+  <p>Hours</p>
+
+  <h2 id="minutes">40</h2>
+  <p>Minutes</p>
+
+  <h2 id="seconds">2</h2>
+  <p>Seconds</p>
+  <br>
+  <button>CLICK TO AVAIL THE DISCOUND</button>
+</center>
+
+  <script>
+      setInterval(function(){
+          
+          var startdate = new Date().getTime();
+          var enddate = new Date("august 08 2022,12:00:00").getTime();
+          var diff = enddate-startdate;
+
+          var days = Math.floor(diff / (1000 * 60 * 60 * 24)); 
+          var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+          var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+          document.getElementById('days').innerHTML=days;
+          document.getElementById('hours').innerHTML=hours;
+          document.getElementById('minutes').innerHTML=minutes;
+          document.getElementById('seconds').innerHTML=seconds;
+      },1000);
+  </script>
+
+</body>
+</html>
